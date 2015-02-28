@@ -13,7 +13,7 @@ ran's Profile
 + mobile: 18704624517
 
 ### 申请职位
-研发工程师
+前端工程师
 
 ### 关键字
 + 擅长: Web开发, RealTime Web
