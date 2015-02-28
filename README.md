@@ -17,7 +17,7 @@ ran's Profile
 
 ### 关键字
 + 擅长: Web开发, RealTime Web
-+ 支撑技能：Node.js，Linux，计算机网络，前端技术，操作系统内幕，Git，NoSQL, 设计模式, Linux I/O模型, 科学上网。
++ 支撑技能：Node.js，Linux，计算机网络，前端技术技巧，操作系统内幕，NoSQL，设计模式，Linux I/O模型，科学上网。
 + 最爱编程语言: JavaScript(in Node.js)
 + 框架&库: Express, Connect, React, cheerio, libgit2等
 + 辅助语言: Bash, Ruby, C, Lua
@@ -33,7 +33,7 @@ ran's Profile
   - 完整web应用:
 	    * [BlogOS](https://github.com/abbshr/BlogOS): 基于Express框架和MongoDB数据库的微型论坛系统
 	    * [TeamChat](https://github.com/abbshr/FoOTOoRTCA): 我的第一个实验室项目. 基于Socket.IO和Express的实时团队协作工具,但由于时间仓促,未实现全部功能.
-	    * Yinle.me: 私有项目. 一款Node.js编写的面向校园的云打印服务, 我的第二个实验室项目.
+	    * Yinle.me: 私有项目. 一款Node.js编写的面向校园的云打印服务, 除后台使用了Express框架, 前台的UI和应用逻辑全为自己手写, 未借助任何库和框架. 我的第二个实验室项目.
 	    * [ctheyvs](https://github.com/abbshr/ctheyvs): 一个外卖比价器. 综合运用了爬虫, 前端hack, 集群, 动态规划, 字符串模糊匹配算法等技术与理论.
 	    * healthlink: 私有项目. 健康跟踪应用demo. 一个外包项目, 包括日常饮食记录的图表展示, 即时聊天等.
   - 后台服务:
@@ -58,43 +58,32 @@ ran's Profile
 ### 升级路线
 
 + 高三：  
-  开始学习HTML，JavaScript core，首次接触Node.js
-
+	首次接触Node.js
 + 大一(上)：  
-  - 了解了开源文化,学习使用Unix like OS，Ubuntu几个发行版
   - 彻底爱上JavaScript, Node.js, 并把玩各种奇淫技巧.
-  - 在开发JavaScript全栈式Web应用时,接触到了NoSQL概念,并学会使用MongoDB。
+  - 在开发JavaScript全栈式Web应用时,接触到了NoSQL概念,并熟练使用MongoDB。
 + 大一(下):
   - 学习前端开发技术, 一些前端性能优化和前端hack技巧.
   - 阅读了《JavaScript模式》一书，学会JavaScript中一些设计模式, 同时写了一些JS小游戏.
-  - 对RealTime Web产生兴趣, 开始研究WebSocket协议
   - 使用Jekyll和GitHub Page搭建个人博客, 并由此开始我的blog之路
-  - 借助RealTime Web的学习,顺便学习了Ajax技术
-  - web中的跨域技术
+  - 研究web中的跨域技术
 + 大二(上)：
-  - 参与举办了SFD活动, 并制作了功能丰富的web版抽奖程序
-  - 学习Linux系统管理技术.
+  - 熟悉了Linux常规操作及系统管理技术.
   - 通过学习操作系统的兴趣,促使我研究Node.js底层机制，比如事件循环和事件触发的实现,以及外设,网络I/O.
   - 阅读RFC 6544, 并用Node.js初步实现了WebSocket协议.
 + 大二(下):
-  - 跟实验室老师搞BitCoin数据可视化分析
-  - 痴迷计算机网络, 实现了Node.js版的TCP协议模型
-  - 制作JavaScript genies特效, 并修复了开源项目genies.js中的一些bug
-  - 学习Linux的网络配置与管理维护
-  - 学会Bash
+  - 跟实验室老师做BitCoin BlockChain 数据可视化与分析
+  - 痴迷计算机网络, 实现了Node.js版的类TCP协议模型, 并完整阅读了RFC 6544 WebSocket Protocol, 实现了RocketEngine库.
+  - 修复了开源项目genies.js中的一些bug
   - 帮同学分析了淘宝的前端数据传输并设计了抓取方式,以获取需要的数据.
   - 学习了WebSocket之外其他流行的RealTime Web技术,如Ajax, Comet, iframe
-  - 完整阅读了RFC 6544 WebSocket Protocol, 实现了RocketEngine库
   - 在实验室和俱乐部做了关于RealTime Web的技术分享讲座
   - 阅读Node.js和libuv部分源码,颇有体会,并修改编译了一个自己的Node.js版本.
   - 阅读了Connect框架的源码, 了解了Express的内部实现.
-+ 大三(上,目前为止):
-  - 阅读bitpay/insight-api源码,修复了bug,并贡献了几行代码
-  - 做BitCoin BlockChain 数据可视化与分析
++ 大三(上):
+  - 阅读bitpay/insight-api源码, 并贡献了代码
   - 阅读了《LSP(Linux System Programming)》, 对系统编程知识如Linux I/O技术内幕, 缓冲, 磁盘I/O以及流式I/O有了更深的了解.
-  - 开始研究一些有意思的算法，并针对遇到的问题设计或改进相应的算法
   - 帮朋友的创业团队设计后台服务
-  - 学会Ruby
 
 ### 关于我
 I like... 创造性，新奇，好玩，有挑战性，技术含量，追根溯源.
