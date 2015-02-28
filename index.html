@@ -3,34 +3,31 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
     <title>My Profile by abbshr</title>
   </head>
 
   <body>
-    <div id="container">
+    <header>
       <div class="inner">
+        <h1>My Profile</h1>
+        <h2>all about me</h2>
+        <a href="https://github.com/abbshr/myProfile" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
 
-        <header>
-          <h1>My Profile</h1>
-          <h2>all about me</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/abbshr/myProfile/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/abbshr/myProfile/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/abbshr/myProfile" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
           <h3>
 <a id="名片" class="anchor" href="#%E5%90%8D%E7%89%87" aria-hidden="true"><span class="octicon octicon-link"></span></a>名片</h3>
 
@@ -59,7 +56,7 @@
 
 <ul>
 <li>擅长: Web开发, RealTime Web</li>
-<li>支撑技能：Node.js，Linux，计算机网络，前端技术，操作系统内幕，Git，NoSQL, 设计模式, Linux I/O模型, 科学上网。</li>
+<li>支撑技能：Node.js，Linux，计算机网络，前端hack技术技巧，操作系统内幕，NoSQL，设计模式，Linux I/O模型，科学上网。</li>
 <li>最爱编程语言: JavaScript(in Node.js)</li>
 <li>框架&amp;库: Express, Connect, React, cheerio, libgit2等</li>
 <li>辅助语言: Bash, Ruby, C, Lua</li>
@@ -92,7 +89,7 @@
 <a href="https://github.com/abbshr/BlogOS">BlogOS</a>: 基于Express框架和MongoDB数据库的微型论坛系统</li>
 <li>
 <a href="https://github.com/abbshr/FoOTOoRTCA">TeamChat</a>: 我的第一个实验室项目. 基于Socket.IO和Express的实时团队协作工具,但由于时间仓促,未实现全部功能.</li>
-<li>Yinle.me: 私有项目. 一款Node.js编写的面向校园的云打印服务, 我的第二个实验室项目.</li>
+<li>Yinle.me: 私有项目. 一款Node.js编写的面向校园的云打印服务, 除后台使用了Express框架, 前台的UI和应用逻辑全为自己手写, 未借助任何库和框架. 我的第二个实验室项目.</li>
 <li>
 <a href="https://github.com/abbshr/ctheyvs">ctheyvs</a>: 一个外卖比价器. 综合运用了爬虫, 前端hack, 集群, 动态规划, 字符串模糊匹配算法等技术与理论.</li>
 <li>healthlink: 私有项目. 健康跟踪应用demo. 一个外包项目, 包括日常饮食记录的图表展示, 即时聊天等.</li>
@@ -160,15 +157,13 @@
 <a id="升级路线" class="anchor" href="#%E5%8D%87%E7%BA%A7%E8%B7%AF%E7%BA%BF" aria-hidden="true"><span class="octicon octicon-link"></span></a>升级路线</h3>
 
 <ul>
-<li><p>高三：<br>
-开始学习HTML，JavaScript core，首次接触Node.js</p></li>
-<li>
-<p>大一(上)：  </p>
+<li>高三：<br>
+首次接触Node.js</li>
+<li>大一(上)：<br>
 
 <ul>
-<li>了解了开源文化,学习使用Unix like OS，Ubuntu几个发行版</li>
 <li>彻底爱上JavaScript, Node.js, 并把玩各种奇淫技巧.</li>
-<li>在开发JavaScript全栈式Web应用时,接触到了NoSQL概念,并学会使用MongoDB。</li>
+<li>在开发JavaScript全栈式Web应用时,接触到了NoSQL概念,并熟练使用MongoDB。</li>
 </ul>
 </li>
 <li>大一(下):
@@ -176,17 +171,14 @@
 <ul>
 <li>学习前端开发技术, 一些前端性能优化和前端hack技巧.</li>
 <li>阅读了《JavaScript模式》一书，学会JavaScript中一些设计模式, 同时写了一些JS小游戏.</li>
-<li>对RealTime Web产生兴趣, 开始研究WebSocket协议</li>
 <li>使用Jekyll和GitHub Page搭建个人博客, 并由此开始我的blog之路</li>
-<li>借助RealTime Web的学习,顺便学习了Ajax技术</li>
-<li>web中的跨域技术</li>
+<li>研究web中的跨域技术</li>
 </ul>
 </li>
 <li>大二(上)：
 
 <ul>
-<li>参与举办了SFD活动, 并制作了功能丰富的web版抽奖程序</li>
-<li>学习Linux系统管理技术.</li>
+<li>熟悉了Linux常规操作及系统管理技术.</li>
 <li>通过学习操作系统的兴趣,促使我研究Node.js底层机制，比如事件循环和事件触发的实现,以及外设,网络I/O.</li>
 <li>阅读RFC 6544, 并用Node.js初步实现了WebSocket协议.</li>
 </ul>
@@ -194,28 +186,22 @@
 <li>大二(下):
 
 <ul>
-<li>跟实验室老师搞BitCoin数据可视化分析</li>
-<li>痴迷计算机网络, 实现了Node.js版的TCP协议模型</li>
-<li>制作JavaScript genies特效, 并修复了开源项目genies.js中的一些bug</li>
-<li>学习Linux的网络配置与管理维护</li>
-<li>学会Bash</li>
+<li>跟实验室老师做BitCoin BlockChain 数据可视化与分析</li>
+<li>痴迷计算机网络, 实现了Node.js版的类TCP协议模型, 并完整阅读了RFC 6544 WebSocket Protocol, 实现了RocketEngine库.</li>
+<li>修复了开源项目genies.js中的一些bug</li>
 <li>帮同学分析了淘宝的前端数据传输并设计了抓取方式,以获取需要的数据.</li>
 <li>学习了WebSocket之外其他流行的RealTime Web技术,如Ajax, Comet, iframe</li>
-<li>完整阅读了RFC 6544 WebSocket Protocol, 实现了RocketEngine库</li>
 <li>在实验室和俱乐部做了关于RealTime Web的技术分享讲座</li>
 <li>阅读Node.js和libuv部分源码,颇有体会,并修改编译了一个自己的Node.js版本.</li>
 <li>阅读了Connect框架的源码, 了解了Express的内部实现.</li>
 </ul>
 </li>
-<li>大三(上,目前为止):
+<li>大三(上):
 
 <ul>
-<li>阅读bitpay/insight-api源码,修复了bug,并贡献了几行代码</li>
-<li>做BitCoin BlockChain 数据可视化与分析</li>
+<li>阅读bitpay/insight-api源码, 并贡献了代码</li>
 <li>阅读了《LSP(Linux System Programming)》, 对系统编程知识如Linux I/O技术内幕, 缓冲, 磁盘I/O以及流式I/O有了更深的了解.</li>
-<li>开始研究一些有意思的算法，并针对遇到的问题设计或改进相应的算法</li>
 <li>帮朋友的创业团队设计后台服务</li>
-<li>学会Ruby</li>
 </ul>
 </li>
 </ul>
@@ -225,18 +211,28 @@
 
 <p>I like... 创造性，新奇，好玩，有挑战性，技术含量，追根溯源.</p>
 
-<p>写框架或库去解决开发中的问题，给应用设计合适的架构选择合适的模式，从旧的东西上重新挖掘可利用价值与可学习的东西.</p>
+<p>喜欢对一些网页进行hack,擅于从各种类型的页面中提取需要的数据和信息. 倾向于自己写框架或库去解决开发中的问题，给应用设计合适的架构选择合适的模式，从旧的东西上重新挖掘可利用价值与可学习的东西.</p>
 
 <p>追求艺术感，爱写blog, 喜欢设计，色彩敏感。喜欢模块化分解问题，注重Unix设计哲学.</p>
         </section>
 
-        <footer>
-          My Profile is maintained by <a href="https://github.com/abbshr">abbshr</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+        <aside id="sidebar">
+          <a href="https://github.com/abbshr/myProfile/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/abbshr/myProfile/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
-        
+          <p class="repo-owner"><a href="https://github.com/abbshr/myProfile"></a> is maintained by <a href="https://github.com/abbshr">abbshr</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
       </div>
     </div>
+
+  
   </body>
 </html>
