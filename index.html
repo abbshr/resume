@@ -3,32 +3,50 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <meta name="viewport" content="width=640">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
 
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>My Profile by abbshr</title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>My Profile</h1>
-        <h2>all about me</h2>
-        <a href="https://github.com/abbshr/myProfile" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
+    <a id="forkme_banner" href="https://github.com/abbshr/myProfile">View on GitHub</a>
+    <div class="shell">
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>My Profile</h1>
+            <h2>all about me</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/abbshr/myProfile/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/abbshr/myProfile/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>
 <a id="个人名片" class="anchor" href="#%E4%B8%AA%E4%BA%BA%E5%90%8D%E7%89%87" aria-hidden="true"><span class="octicon octicon-link"></span></a>个人名片</h3>
 
 <table>
@@ -44,8 +62,8 @@
     <tbody>
     <tr>
     <td>孙焕然</td>
-<td><a href="https://github.com/abbshr" class="user-mention">@abbshr</a></td>
-<td>http://digitpie.cf</td>
+<td><a href="http://github.com/abbshr">@abbshr</a></td>
+<td><a href="http://digitpie.cf">DigitPie</a></td>
 <td>哈尔滨工业大学</td>
 <td>软件工程</td>
 <td>本科</td>
@@ -59,53 +77,32 @@
 <h3>
 <a id="能力概述" class="anchor" href="#%E8%83%BD%E5%8A%9B%E6%A6%82%E8%BF%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>能力概述</h3>
 
-<p>擅使JavaScript/Node.js, 自如应对异步编程. 能够熟练运用Web技术、Hack手段以及各种JavaScript奇淫技巧, 从而有多种技术和手段从各种类型的页面中提取需要的数据和信息. </p>
+<p>擅使JavaScript/Node.js, 也熟悉Ruby, C, Lua. 自如应对异步编程. 能够熟练运用Web技术、Hack手段以及各种JavaScript奇淫技巧.  </p>
 
-<p>常年工作于Ubuntu环境下, 熟悉Linux常规操作、系统管理技术和Bash脚本编程. 熟悉Git原理, 能熟练使用Git进行版本控制以及应用开发. </p>
+<p>完整阅读过RFC 6544 WebSocket Protocol, 实现了一个WebSocket库, 并在实验室和俱乐部做过一期关于RealTime Web的技术分享讲座. 对计算机网络有所研究, 曾实现过Node.js版的GBN协议模型和停等协议. </p>
 
-<p>热衷RealTime Web技术, 特别是WebSocket. 完整阅读过RFC 6544 WebSocket Protocol, 实现了一个WebSocket库, 并在实验室和俱乐部做过一期关于RealTime Web的技术分享讲座. 对计算机网络有所研究, 曾实现过Node.js版的GBN协议模型和停等协议. </p>
+<p>阅读了Connect框架的源码. 能熟练使用Express, Connect, React, cheerio, libgit2等库和框架.  熟悉LevelDB、MongoDB、Redis.</p>
 
-<p>喜欢研究了解系统底层的技术, 阅读过实验室翻译的《Linux System Programming》, 对系统编程知识如Linux I/O技术内幕, 缓冲, 磁盘I/O以及流式I/O有一定的了解.<br>
-读过Node.js和libuv源码, 清楚其实现机制, 如Node启动, 模块加载, 事件循环, 事件触发, 流机制等等, 修改编译了一个自定义版的Node.js.</p>
+<p>工作于Ubuntu环境下, 熟悉Linux常规操作、系统管理技术和Bash脚本编程. 能熟练使用Git进行版本控制以及应用开发. </p>
 
-<p>除此之外, 也研究过BitCoin技术, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 目前正在做BitCoin BlockChain的数据可视化与分析.</p>
+<p>了解系统底层的技术, 阅读过实验室翻译的《Linux System Programming》, 对系统编程知识如Linux I/O内幕有一定的了解.<br>
+读过Node.js和libuv源码, 清楚其实现机制, 如Node启动, 模块加载, 事件循环, 事件触发, 流机制等等, 修改编译过一个自定义版的Node.js.</p>
 
-<p>Web开发方面, 阅读了Connect框架的源码, 了解Express的中间件技术等内部实现. 能熟练使用Express, Connect, React, cheerio, libgit2等库和框架.<br>
-在开发JavaScript全栈式Web应用时, 接触到了NoSQL理论. 熟悉LevelDB、MongoDB、Redis.</p>
-
-<p>编程语言除了JavaScript和Bash, 也熟悉Ruby, C, Lua.</p>
-
-<p>平日比较倾向于自己写框架或库去解决开发中的问题. 因学习过JavaScript设计模式, 总想给应用设计合适的架构选择合适的模式. 擅于从旧的东西上重新挖掘可利用价值与可学习的东西.</p>
+<p>除此之外, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 目前正在做BitCoin BlockChain的数据可视化与分析.</p>
 
 <h3>
-<a id="实现作品" class="anchor" href="#%E5%AE%9E%E7%8E%B0%E4%BD%9C%E5%93%81" aria-hidden="true"><span class="octicon octicon-link"></span></a>实现作品</h3>
+<a id="主要实现作品" class="anchor" href="#%E4%B8%BB%E8%A6%81%E5%AE%9E%E7%8E%B0%E4%BD%9C%E5%93%81" aria-hidden="true"><span class="octicon octicon-link"></span></a>主要实现作品</h3>
 
 <ul>
 <li>纯前端:
-
-<ul>
-<li>
-<a href="https://github.com/abbshr/JSCode/tree/master/%E4%BA%94%E5%AD%90%E6%A3%8B">五子棋</a>: JavaScript写的五子棋小游戏</li>
-<li>
-<a href="https://github.com/FoOTOo/SFD2013-Harbin">SFD抽奖机</a>:为实验室承办的SFD活动制作的功能丰富的抽奖程序, JavaScript实现</li>
-<li>
-<a href="http://footoo.github.io/">FoOTOo page</a>: 为实验室编写的一套CSS theme.</li>
-</ul>
-</li>
-<li>完整web应用:
+<a href="https://github.com/FoOTOo/SFD2013-Harbin">SFD抽奖机</a>, <a href="http://footoo.github.io/">FoOTOo page</a>(为实验室编写的一套CSS theme.)</li>
+<li>完整web应用 &amp; 后台服务:
 
 <ul>
 <li>
 <a href="https://github.com/FoOTOo/Yinle.me">Yinle.me</a>: 私有项目. 一款Node.js编写的面向校园的云打印服务, 曾得过IBM暑期夏令营的创新大赛二等奖. 除后台使用了Express框架, 前台的UI和应用逻辑全为自己手写, 未借助任何库和框架. 我的第二个实验室项目.</li>
 <li>
 <a href="https://github.com/abbshr/ctheyvs">ctheyvs</a>: 一个外卖比价器. 综合运用了爬虫, 前端hack, 集群, 动态规划, 字符串模糊匹配算法等技术与理论.</li>
-</ul>
-</li>
-<li>后台服务:
-
-<ul>
-<li>
-<a href="https://github.com/abbshr/hackhit">hackhit</a>: 模拟浏览器端登陆学校教务处,曾是一个课程表项目的模块.</li>
 <li>
 <a href="https://github.com/AustinChou/Git-Contacts">Git-Contacts</a>: 使用Git特性开发的通讯录共享服务, Ruby开发. 我的第四个实验室项目.</li>
 </ul>
@@ -127,22 +124,22 @@
 
 <ul>
 <li>
-<a href="https://github.com/abbshr/RocketEngine">RocketEngine</a>: npm模块. 一个完整的超轻量级Node.js WebSocket库, 无第三方模块依赖,使用简单,功能丰富.</li>
+<a href="https://github.com/abbshr/RocketEngine">RocketEngine</a>: 一个完整的超轻量级Node.js WebSocket库, 无第三方模块依赖,使用简单,功能丰富.</li>
 <li>
-<a href="https://github.com/abbshr/execQ">execq</a>: npm模块. 用于RocketEngine库内部,  解决异步工作流次序问题.</li>
+<a href="https://github.com/abbshr/execQ">execq</a>: 用于RocketEngine库内部,  解决异步工作流次序问题.</li>
 <li>
 <a href="https://github.com/abbshr/event.js">event.js</a>: 用于RocketEngine前端库内部, 在浏览器端实现异步操作的Pub/Sub观察者体系.</li>
 <li>
-<a href="https://github.com/abbshr/read.i">read.i</a>: npm模块, 解决Node.js中异步标准I/O的麻烦,方便终端输入</li>
+<a href="https://github.com/abbshr/read.i">read.i</a>: 解决Node.js中异步标准I/O的麻烦,方便终端输入</li>
 <li>
-<a href="https://github.com/abbshr/colorlogger">colorlogger</a>: npm模块, 实现彩色终端日志的输出与保存 </li>
+<a href="https://github.com/abbshr/colorlogger">colorlogger</a>: 实现彩色终端日志的输出与保存 </li>
 </ul>
 </li>
 <li>Ruby
 
 <ul>
 <li>
-<a href="https://github.com/AustinChou/Git-Contacts/tree/git-repository">gitdb</a>: gem模块，封装了Git的底层操作，是Git-Contacts的源动力.</li>
+<a href="https://github.com/AustinChou/Git-Contacts/tree/git-repository">gitdb</a>: 封装了Git的底层操作，是Git-Contacts的源动力.</li>
 </ul>
 </li>
 <li>CSS &amp; HTML
@@ -153,25 +150,22 @@
 </ul>
 </li>
 </ul>
-        </section>
+      </section>
 
-        <aside id="sidebar">
-          <a href="https://github.com/abbshr/myProfile/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/abbshr/myProfile/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/abbshr">abbshr</a> can be found on <a href="https://github.com/abbshr/myProfile">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
 
-          <p class="repo-owner"><a href="https://github.com/abbshr/myProfile"></a> is maintained by <a href="https://github.com/abbshr">abbshr</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
     </div>
 
-  
+    
   </body>
 </html>
