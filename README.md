@@ -22,8 +22,6 @@ HIT FoOTOo实验室成员
 
 熟悉部分Linux常规操作、系统管理技术和Bash脚本编程. 懂得Git底层工作机制, 并能熟练使用Git进行版本控制以及应用开发.
 
-阅读过《Linux System Programming》, 了解应用层开发相关的系统底层的技术, 对系统编程知识如Linux I/O内幕有一定的了解.
-
 读过Node.js和libuv部分源码, 清楚其实现机制, 如Node启动, 模块加载, 事件循环, 事件触发, 流机制等等, 修改编译过一个自定义版的Node.js.
 
 除此之外, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 目前正在做BitCoin BlockChain的数据可视化与分析.
@@ -36,8 +34,8 @@ HIT FoOTOo实验室成员
     * [Git-Contacts](https://github.com/AustinChou/Git-Contacts): 使用Git特性开发的通讯录共享服务, Ruby开发.
 - 数据可视化:
     * [env.BTC](https://github.com/abbshr/env.BTC): 基于开源项目insight/insight-api开发的比特币区块链数据可视化与分析系统, 部分完工.
-    * [BlogOS](): 一个基于Node.js + Express + MongoDB的小型论坛系统. 支持后台统计管理.
-    * [TeamChat](): Node.js驱动, Sokcet.io + Express构建的RealTime团队通讯Web应用.
+    * [BlogOS](https://github.com/abbshr/BlogOS): 一个基于Node.js + Express + MongoDB的小型论坛系统. 支持后台统计管理.
+    * [TeamChat](https://github.com/abbshr/FoOTOoRTCA): Node.js驱动, Sokcet.io + Express构建的RealTime团队通讯Web应用.
 
 ### 主要个人开源框架/库:
 * JavaScript & Node.js
