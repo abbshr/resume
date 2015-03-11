@@ -29,7 +29,7 @@ HIT FoOTOo实验室成员
 ### 主要实现作品
 
 - 完整web应用 & 后台服务:
-    * [Yinle.me](https://github.com/FoOTOo/Yinle.me): 私有项目. 一款Node.js编写的面向校园的云打印服务, 曾得过IBM暑期夏令营的创新大赛二等奖. 除后台使用了Express框架, 前台的UI和应用逻辑全为自己手写, 未借助任何库和框架. 我的第二个实验室项目.
+    * [Yinle.me](https://github.com/FoOTOo/Yinle.me): 私有项目. 一款Node.js编写的面向校园的云打印服务, 曾得过IBM暑期夏令营的创新大赛二等奖. 除后台使用了Express框架, 前台的UI和应用逻辑全为自己手写, 未借助任何库和框架.
     * [ctheyvs](https://github.com/abbshr/ctheyvs): 一个外卖比价器. 综合运用了爬虫, 前端hack, 集群, 动态规划, 字符串模糊匹配算法等技术与理论.
     * [Git-Contacts](https://github.com/AustinChou/Git-Contacts): 使用Git特性开发的通讯录共享服务, Ruby开发.
 - 数据可视化:
