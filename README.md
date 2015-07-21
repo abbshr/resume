@@ -29,15 +29,15 @@ HIT FoOTOo实验室成员
 ### 主要实现作品
 
 - 完整web应用 & 后台服务:
-    * [Yinle.me](https://github.com/abbshr/Yinle.me-architecture): 私有项目. 一款Node.js编写的面向校园的云打印服务, 曾得过IBM暑期夏令营的创新大赛二等奖. 经历了两次重构，重构使用了LoopBack框架，
+	* [Yinle.me](https://github.com/abbshr/Yinle.me-architecture): 私有项目. 一款Node.js编写的面向校园的云打印服务, 曾得过IBM暑期夏令营的创新大赛二等奖. 经历了两次重构，重构使用了LoopBack框架，
 		并扩展了扫码打印，打印机群管理，资源共享，在线支付等功能.
-    * [ctheyvs](https://github.com/abbshr/ctheyvs): 一个外卖比价器. 综合运用了爬虫, 前端hack, 集群, 动态规划, 字符串模糊匹配算法等技术与理论.
-    * [Git-Contacts](https://github.com/abbshr/Git-Contacts): 使用Git特性开发的通讯录共享服务, Ruby开发.
-		* [Hugo](https://github.com/abbshr/lbs-app): 一个基于AMap地图的信息分享应用，使用CoffeeScript，RethinkDB，thinky，SemanticUI以及Angular.js构建.
-		* [BlogOS](https://github.com/abbshr/BlogOS): 一个基于Node.js + Express + MongoDB的小型论坛系统. 支持后台统计管理.
-    * [TeamChat](https://github.com/abbshr/FoOTOoRTCA): Node.js驱动, Sokcet.io + Express构建的RealTime团队通讯Web应用.
+	* [ctheyvs](https://github.com/abbshr/ctheyvs): 一个外卖比价器. 综合运用了爬虫, 前端hack, 集群, 动态规划, 字符串模糊匹配算法等技术与理论.
+	* [Git-Contacts](https://github.com/abbshr/Git-Contacts): 使用Git特性开发的通讯录共享服务, Ruby开发.
+	* [Hugo](https://github.com/abbshr/lbs-app): 一个基于AMap地图的信息分享应用，使用CoffeeScript，RethinkDB，thinky，SemanticUI以及Angular.js构建.
+	* [BlogOS](https://github.com/abbshr/BlogOS): 一个基于Node.js + Express + MongoDB的小型论坛系统. 支持后台统计管理.
+  * [TeamChat](https://github.com/abbshr/FoOTOoRTCA): Node.js驱动, Sokcet.io + Express构建的RealTime团队通讯Web应用.
 - 数据可视化:
-    * [env.BTC](https://github.com/abbshr/env.BTC): 基于开源项目insight/insight-api开发的比特币区块链数据可视化与分析系统, 部分完工.
+  * [env.BTC](https://github.com/abbshr/env.BTC): 基于开源项目insight/insight-api开发的比特币区块链数据可视化与分析系统, 部分完工.
 
 
 ### 主要个人开源框架/库:
