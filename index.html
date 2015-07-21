@@ -1,52 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
+    <meta charset="UTF-8">
     <title>My Profile by abbshr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
-    <a id="forkme_banner" href="https://github.com/abbshr/myProfile">View on GitHub</a>
-    <div class="shell">
+    <section class="page-header">
+      <h1 class="project-name">My Profile</h1>
+      <h2 class="project-tagline">all about me</h2>
+      <a href="https://github.com/abbshr/myProfile" class="btn">View on GitHub</a>
+      <a href="https://github.com/abbshr/myProfile/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/abbshr/myProfile/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>My Profile</h1>
-            <h2>all about me</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/abbshr/myProfile/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/abbshr/myProfile/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
+    <section class="main-content">
+      <h3>
 <a id="个人名片" class="anchor" href="#%E4%B8%AA%E4%BA%BA%E5%90%8D%E7%89%87" aria-hidden="true"><span class="octicon octicon-link"></span></a>个人名片</h3>
 
 <table>
@@ -79,11 +52,11 @@
 <h3>
 <a id="能力概述" class="anchor" href="#%E8%83%BD%E5%8A%9B%E6%A6%82%E8%BF%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>能力概述</h3>
 
-<p>擅使JavaScript/Node.js, 也会Ruby, C, Lua. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇淫巧技.</p>
+<p>擅使JavaScript/Node.js/CoffeeScript, 也会Ruby, C, Lua. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇淫巧技. 遵循ES5规范， ES6的Promise。</p>
 
 <p>完整阅读过RFC 6544 WebSocket Protocol, 实现了一个WebSocket库, 并在实验室和俱乐部做过一期关于RealTime Web的技术分享讲座. 对计算机网络有所研究, 曾实现过Node.js版的GBN协议模型和停等协议, 对WebRTC技术有一定了解.</p>
 
-<p>阅读了Connect框架的源码. 能使用Express, Connect, React, cheerio, libgit2等库和框架构建应用或工具. 数据库常使用LevelDB、MongoDB, 也用过Redis.</p>
+<p>阅读了Connect框架的源码. 能使用Express, LoopBack, Sinatra, Connect, React, cheerio, libgit2等库和框架构建应用或工具. 数据库常使用LevelDB、MongoDB, 也用过Redis, RethinkDB.</p>
 
 <p>熟悉部分Linux常规操作、系统管理技术和Bash脚本编程. 懂得Git底层工作机制, 并能熟练使用Git进行版本控制以及应用开发.</p>
 
@@ -99,11 +72,14 @@
 
 <ul>
 <li>
-<a href="https://github.com/FoOTOo/Yinle.me">Yinle.me</a>: 私有项目. 一款Node.js编写的面向校园的云打印服务, 曾得过IBM暑期夏令营的创新大赛二等奖. 除后台使用了Express框架, 前台的UI和应用逻辑全为自己手写, 未借助任何库和框架.</li>
+<a href="https://github.com/abbshr/Yinle.me-architecture">Yinle.me</a>: 私有项目. 一款Node.js编写的面向校园的云打印服务, 曾得过IBM暑期夏令营的创新大赛二等奖. 经历了两次重构，重构使用了LoopBack框架，
+并扩展了扫码打印，打印机群管理，资源共享，在线支付等功能.</li>
 <li>
 <a href="https://github.com/abbshr/ctheyvs">ctheyvs</a>: 一个外卖比价器. 综合运用了爬虫, 前端hack, 集群, 动态规划, 字符串模糊匹配算法等技术与理论.</li>
 <li>
-<a href="https://github.com/AustinChou/Git-Contacts">Git-Contacts</a>: 使用的Git功能开发的通讯录共享服务, Ruby开发.</li>
+<a href="https://github.com/abbshr/Git-Contacts">Git-Contacts</a>: 使用Git特性开发的通讯录共享服务, Ruby开发.</li>
+<li>
+<a href="https://github.com/abbshr/lbs-app">Hugo</a>: 一个基于AMap地图的信息分享应用，使用CoffeeScript，RethinkDB，thinky，SemanticUI以及Angular.js构建.</li>
 <li>
 <a href="https://github.com/abbshr/BlogOS">BlogOS</a>: 一个基于Node.js + Express + MongoDB的小型论坛系统. 支持后台统计管理.</li>
 <li>
@@ -127,7 +103,7 @@
 
 <ul>
 <li>
-<a href="https://github.com/abbshr/RocketEngine">RocketEngine</a>: 一个完整的超轻量级Node.js WebSocket库, 无第三方模块依赖, 使用简单, 并且提供了Socket.IO尚未支持的流式API和二进制流传输.</li>
+<a href="https://github.com/abbshr/RocketEngine">RocketEngine</a>: 一个完整的超轻量级Node.js WebSocket库, 无第三方模块依赖, 使用简单, 并且提供了Socket.IO尚未支持的流式API和二进制流传输。被用于Yinle.me的重构以及几个外包项目中。</li>
 <li>
 <a href="https://github.com/abbshr/execQ">execq</a>: 曾用于RocketEngine库内部,  解决异步工作流次序问题.</li>
 <li>
@@ -136,6 +112,8 @@
 <a href="https://github.com/abbshr/read.i">read.i</a>: 解决Node.js中异步标准I/O的麻烦,方便终端输入</li>
 <li>
 <a href="https://github.com/abbshr/colorlogger">colorlogger</a>: 实现彩色终端日志的输出与保存</li>
+<li>
+<a href="https://github.com/abbshr/Lotterior">Lotterior</a>: Node/Coffee抽奖机，较高的可配置性</li>
 </ul>
 </li>
 <li>Ruby
@@ -153,22 +131,16 @@
 </ul>
 </li>
 </ul>
-      </section>
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/abbshr">abbshr</a> can be found on <a href="https://github.com/abbshr/myProfile">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/abbshr/myProfile">My Profile</a> is maintained by <a href="https://github.com/abbshr">abbshr</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
 
-    </div>
+    </section>
 
-    
+  
   </body>
 </html>
+
