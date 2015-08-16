@@ -14,7 +14,7 @@ HIT FoOTOo实验室成员
 
 ### 能力概述
 
-擅使JavaScript/Node.js/CoffeeScript, 也会Ruby, C, Lua. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇淫巧技. 遵循ES5规范， ES6的Promise。
+擅使JavaScript/Node.js/CoffeeScript, 也会Ruby, C, Lua, Lisp. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇淫巧技. 遵循ES5规范， ES6的Promise。
 
 完整阅读过RFC 6544 WebSocket Protocol, 实现了一个WebSocket库, 并在实验室和俱乐部做过一期关于RealTime Web的技术分享讲座. 对计算机网络有所研究, 曾实现过Node.js版的GBN协议模型和停等协议, 对WebRTC技术有一定了解.
 
@@ -22,9 +22,11 @@ HIT FoOTOo实验室成员
 
 熟悉Linux大部分命令、系统/网络管理技术和Bash脚本编程. 懂得Git底层工作机制, 并能熟练使用Git进行版本控制以及应用开发.
 
-读过Node.js和libuv部分源码, 清楚其实现机制, 如Node启动, 模块加载, 事件循环, 事件触发, 流机制等等, 修改编译过一个自定义版的Node.js.
+正在学clisp, 了解lambda演算等函数式编程的思想及理论基础.
 
-除此之外, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 目前正在做BitCoin BlockChain的数据可视化与分析.
+读过Node.js和libuv部分源码, 清楚其实现机制, 如Node启动, 流机制, 模块加载, 事件循环, 事件触发等等, 修改编译过一个自定义版的Node.js.
+
+除此之外, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 做过BitCoin BlockChain的数据可视化与分析.
 
 ### 主要实现作品
 
