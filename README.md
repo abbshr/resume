@@ -49,6 +49,7 @@ HIT FoOTOo实验室成员
 	- [RocketEngine](https://github.com/abbshr/RocketEngine): 一个完整的超轻量级Node.js WebSocket库, 无第三方模块依赖, 使用简单, 并且提供了Socket.IO尚未支持的流式API和二进制流传输。被用于Yinle.me的重构以及几个外包项目中。
 	- [execq](https://github.com/abbshr/execQ): 曾用于RocketEngine库内部,  解决异步工作流次序问题.
 	- [event.js](https://github.com/abbshr/event.js): 用于RocketEngine前端库内部, 在浏览器端实现异步操作的Pub/Sub观察者体系.
+	- [node-rate-limter](https://github.com/abbshr/node-rate-limiter): Node分布式限流器
 	- [node-adt](https://github.com/abbshr/node-adt): 将JSON数据转换成Tree ADT，增强对JSON数据操纵能力。
 	- [read.i](https://github.com/abbshr/read.i): 解决Node.js中异步标准I/O的麻烦,方便终端输入
 	- [colorlogger](https://github.com/abbshr/colorlogger): 实现彩色终端日志的输出与保存
