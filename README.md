@@ -14,19 +14,35 @@ HIT FoOTOo实验室成员
 
 ### 能力概述
 
-擅使JavaScript/Node.js/CoffeeScript, 也会Ruby, C, Lua, Lisp. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇淫巧技. 遵循ES5规范， ES6的Promise。
+擅使JavaScript/Node.js/CoffeeScript, 也会Ruby, C, Lua, Lisp. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇技淫巧.
 
 完整阅读过RFC 6544 WebSocket Protocol, 实现了一个WebSocket库, 并在实验室和俱乐部做过一期关于RealTime Web的技术分享讲座. 对计算机网络有所研究, 曾实现过Node.js版的GBN协议模型和停等协议, 对WebRTC技术有一定了解.
 
-阅读了Connect框架的源码. 能使用Express, LoopBack, Sinatra, Connect, React, cheerio, libgit2等库和框架构建应用或工具. 数据库常使用LevelDB、MongoDB, 也用过Redis, RethinkDB.
+阅读了Connect框架的源码. 能使用Express, LoopBack, Sinatra, Connect, cheerio, libgit2等库和框架构建应用或工具. 数据库常使用RethinkDB, LevelDB, MongoDB, 也用过Redis.
 
 熟悉Linux大部分命令、系统/网络管理技术和Bash脚本编程. 懂得Git底层工作机制, 并能熟练使用Git进行版本控制以及应用开发.
 
-正在学clisp, 了解lambda演算等函数式编程的思想及理论基础.
+正在学Lisp, 了解lambda演算等函数式编程的思想及理论基础.
 
 读过Node.js和libuv部分源码, 清楚其实现机制, 如Node启动, 流机制, 模块加载, 事件循环, 事件触发等等, 修改编译过一个自定义版的Node.js.
 
 除此之外, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 做过BitCoin BlockChain的数据可视化与分析.
+
+### 主要个人开源框架/库:
+* JavaScript & Node.js
+	- [RocketEngine](https://github.com/abbshr/RocketEngine): 一个完整的超轻量级Node.js WebSocket库, 无第三方模块依赖, 使用简单, 并且提供了Socket.IO尚未支持的流式API和二进制流传输。被用于Yinle.me的重构以及几个外包项目中。
+	- [execq](https://github.com/abbshr/execQ): 曾用于RocketEngine库内部,  解决异步工作流次序问题.
+	- [event.js](https://github.com/abbshr/event.js): 用于RocketEngine前端库内部, 在浏览器端实现异步操作的Pub/Sub观察者体系.
+	- [node-rate-limter](https://github.com/abbshr/node-rate-limiter): Node分布式限流器
+	- [node-adt](https://github.com/abbshr/node-adt): 将JSON数据转换成Tree ADT，增强对JSON数据操纵能力。
+	- [node-lock](https://github.com/abbshr/node-lock): 另一种思路实现Node多进程下互斥锁机制.
+	- [read.i](https://github.com/abbshr/read.i): 解决Node.js中异步标准I/O的麻烦,方便终端输入
+	- [colorlogger](https://github.com/abbshr/colorlogger): 实现彩色终端日志的输出与保存
+	- [Lotterior](https://github.com/abbshr/Lotterior): Node/Coffee抽奖机，较高的可配置性
+* Ruby
+    - [gitdb](https://github.com/AustinChou/Git-Contacts/tree/git-repository): 封装了Git的底层操作，是Git-Contacts的源动力.
+* CSS & HTML
+    - [inkiron](https://github.com/abbshr/inkiron): 暑期实训项目写的类flat UI风格的前端CSS框架.
 
 ### 主要实现作品
 
@@ -38,23 +54,21 @@ HIT FoOTOo实验室成员
 	* [Hugo](https://github.com/abbshr/lbs-app): 一个基于AMap地图的信息分享应用，使用CoffeeScript，RethinkDB，thinky，SemanticUI以及Angular.js构建.
 	* [BlogOS](https://github.com/abbshr/BlogOS): 一个基于Node.js + Express + MongoDB的小型论坛系统. 支持后台统计管理.
 - 数据可视化:
-    * [env.BTC](https://github.com/abbshr/env.BTC): 基于开源项目insight/insight-api开发的比特币区块链数据可视化与分析系统, 部分完工.
+    * [env.BTC](https://github.com/abbshr/env.BTC): 基于开源项目insight/insight-api开发的比特币区块链数据可视化与分析系统, 尚未完工.
 - 其他应用:
     * [TeamChat](https://github.com/abbshr/FoOTOoRTCA): Node.js驱动, Sokcet.io + Express构建的RealTime团队通讯Web应用.
 - 密码学研究:
 	* [encryp2p](https://github.com/abbshr/encryp2p): 参考HTTPS的安全模型, 由Ruby编写的P2P文件加密共享程序, 实现了来源可靠性, 信息加密性以及完整性验证.
 
-### 主要个人开源框架/库:
-* JavaScript & Node.js
-	- [RocketEngine](https://github.com/abbshr/RocketEngine): 一个完整的超轻量级Node.js WebSocket库, 无第三方模块依赖, 使用简单, 并且提供了Socket.IO尚未支持的流式API和二进制流传输。被用于Yinle.me的重构以及几个外包项目中。
-	- [execq](https://github.com/abbshr/execQ): 曾用于RocketEngine库内部,  解决异步工作流次序问题.
-	- [event.js](https://github.com/abbshr/event.js): 用于RocketEngine前端库内部, 在浏览器端实现异步操作的Pub/Sub观察者体系.
-	- [node-rate-limter](https://github.com/abbshr/node-rate-limiter): Node分布式限流器
-	- [node-adt](https://github.com/abbshr/node-adt): 将JSON数据转换成Tree ADT，增强对JSON数据操纵能力。
-	- [read.i](https://github.com/abbshr/read.i): 解决Node.js中异步标准I/O的麻烦,方便终端输入
-	- [colorlogger](https://github.com/abbshr/colorlogger): 实现彩色终端日志的输出与保存
-	- [Lotterior](https://github.com/abbshr/Lotterior): Node/Coffee抽奖机，较高的可配置性
-* Ruby
-    - [gitdb](https://github.com/AustinChou/Git-Contacts/tree/git-repository): 封装了Git的底层操作，是Git-Contacts的源动力.
-* CSS & HTML
-    - [inkiron](https://github.com/abbshr/inkiron): 暑期实训项目写的类flat UI风格的前端CSS框架.
+### 实习经历
+
++ (2015.7.24 - now)阿里巴巴-数据平台事业部-数据引擎-Node.js开发
+	负责数据引擎中API服务器这一块的开发, 维护与优化, 处理并输出整个集团各部门产生的以及需要的数据. 为高负载高并发场景(如:天猫双十一)高效稳定的提供上层各个业务所需的数据.
+	达成成就:
+	- 做集群的配置服务性能优化, 上线了重构的API服务器的配置服务器模块.
+	- 设计开发并上线了API服务器针对集群精准限流的Web中间件, 在保证高性能的情况下进行整体流量控制.
+	- 设计开发了集群的弹性限流功能, 内部测试中, 暂未上线.
+	- 修复业务代码打包系统中的bugs.
+	- 写了几个库: node-adt, node-lock, node-rate-limit, 已经被多个内部项目使用.
+	- 完成配置服务器与底层存储系统的对接.
+	- 重构了API服务器的大部分代码.
