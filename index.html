@@ -37,7 +37,7 @@
     <tr>
     <td>孙焕然</td>
 <td><a href="http://github.com/abbshr">@abbshr</a></td>
-<td><a href="http://digitpie.cf">DigitPie</a></td>
+<td><a href="http://digitalpie.cf">DigitalPie</a></td>
 <td>哈尔滨工业大学</td>
 <td>软件工程</td>
 <td>本科</td>
@@ -52,7 +52,7 @@
 <h3>
 <a id="能力概述" class="anchor" href="#%E8%83%BD%E5%8A%9B%E6%A6%82%E8%BF%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>能力概述</h3>
 
-<p>擅使JavaScript/Node.js/CoffeeScript, 也会Ruby, C, Lua, Lisp. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇技淫巧.</p>
+<p>擅使JavaScript/Node.js/CoffeeScript, 也会Ruby, C, Lua, Lisp. 喜欢异步编程. 能够熟练运用Web技术、Hack手段以及多种JavaScript奇技淫巧. </p>
 
 <p>完整阅读过RFC 6544 WebSocket Protocol, 实现了一个WebSocket库, 并在实验室和俱乐部做过一期关于RealTime Web的技术分享讲座. 对计算机网络有所研究, 曾实现过Node.js版的GBN协议模型和停等协议, 对WebRTC技术有一定了解.</p>
 
@@ -60,11 +60,15 @@
 
 <p>熟悉Linux大部分命令、系统/网络管理技术和Bash脚本编程. 懂得Git底层工作机制, 并能熟练使用Git进行版本控制以及应用开发.</p>
 
-<p>正在学Lisp, 了解lambda演算等函数式编程的思想及理论基础.</p>
-
 <p>读过Node.js和libuv部分源码, 清楚其实现机制, 如Node启动, 流机制, 模块加载, 事件循环, 事件触发等等, 修改编译过一个自定义版的Node.js.</p>
 
 <p>除此之外, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 做过BitCoin BlockChain的数据可视化与分析.</p>
+
+<p><del>正在学Lisp</del>, 了解lambda演算等函数式编程的思想及理论基础.</p>
+
+<p>正在学Rust.</p>
+
+<p>对分布式系统相关的技术与理论很有兴趣, 目前正在涉足分布式领域, 并且本科毕业设计就是设计并实现一个分布式API网关.</p>
 
 <h3>
 <a id="主要个人开源框架库" class="anchor" href="#%E4%B8%BB%E8%A6%81%E4%B8%AA%E4%BA%BA%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6%E5%BA%93" aria-hidden="true"><span class="octicon octicon-link"></span></a>主要个人开源框架/库:</h3>
@@ -156,18 +160,30 @@
 <a id="实习经历" class="anchor" href="#%E5%AE%9E%E4%B9%A0%E7%BB%8F%E5%8E%86" aria-hidden="true"><span class="octicon octicon-link"></span></a>实习经历</h3>
 
 <ul>
-<li>(2015.7.24 - )阿里巴巴-数据平台事业部-数据引擎-Node.js开发<br>
-负责数据引擎中API服务器这一块的开发, 维护与优化, 处理并输出整个集团各部门产生的以及需要的数据. 为高负载高并发场景(如:天猫双十一)高效稳定的提供上层各个业务所需的数据.
+<li>(2015.7.24 - 2015.10.31)阿里巴巴-数据平台事业部-数据引擎-Node.js开发<br>
+负责应用服务中API Gateway开发, 维护与优化, 处理并输出整个集团各部门产生的以及需要的数据. 为高负载高并发场景(如:天猫双十一)高效稳定的提供上层各个业务所需的数据.
 达成成就:
 
 <ul>
-<li>做集群的配置服务性能优化, 上线了重构的API服务器的配置服务器模块.</li>
-<li>设计开发并上线了API服务器针对集群精准限流的Web中间件, 在保证高性能的情况下进行整体流量控制.</li>
+<li>做集群的配置服务性能优化, 上线了重构的API Gateway的配置服务器模块.</li>
+<li>设计开发并上线了API Gateway针对集群精准限流的Web中间件, 在保证高性能的情况下进行整体流量控制.</li>
 <li>设计开发了集群的弹性限流功能, 内部测试中, 暂未上线.</li>
 <li>修复业务代码打包系统中的bugs.</li>
 <li>写了几个库: node-adt, node-lock, node-rate-limit, 已经被多个内部项目使用.</li>
 <li>完成配置服务器与底层存储系统的对接.</li>
-<li>重构了API服务器的大部分代码.</li>
+<li>重构了API Gateway的大部分代码.</li>
+</ul>
+</li>
+<li>(2015.11.2 - 2016.1.11)Upyun-应用开发-Node.js开发
+在应用开发组做Node.js基础技术研发, 实习期间完成了:
+
+<ul>
+<li>内部Node.js mysql ORM的重构, 开发, 编写测试以及后期维护.</li>
+<li>设计实现了基于sliding-window的高性能精准限流算法portal-throttle.</li>
+<li>搭建并维护基于ELK的数据处理平台.</li>
+<li>开发维护内部Node.js DNS库node-dig.</li>
+<li>搭建维护gitlab-ci系统.</li>
+<li>完善了内部开发/系统维护文档.</li>
 </ul>
 </li>
 </ul>
