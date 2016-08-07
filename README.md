@@ -1,7 +1,7 @@
 ### 个人名片
 
 |姓名|GitHub|Blog|mobile|email|学校|专业|学历|
-|-|-|-|-|-|-|-|
+| - | - | - | - | - | - | - |
 |孙焕然|[@abbshr](http://github.com/abbshr)|[DigitalPie](http://digitpie.cf)|18704624517|abbshrsoufii@gmail.com|哈尔滨工业大学|软件工程|本科|
 
 ### 能力概述
@@ -11,7 +11,7 @@
 
 学过Lisp, 了解lambda演算等一些函数式编程的思想及理论基础。
 
-正在**Rust**和**Nim**上投入学习。
+正在**Rust (主要)**和**Nim**上投入学习。
 
 #### Web 技术
 在 Web 技术上，能够熟练运用Web技术、Hack手段以及多种JavaScript奇技淫巧。
@@ -27,12 +27,14 @@
 
 了解并能熟练运用基本的算法和数据结构于实际开发中，能够做适当优化以适配需求。
 
-数据存储产品上，经常使用 Redis、LevelDB，不过更倾向于学习它们，编写完善自己的存储系统。
+数据存储产品上，经常使用 Redis、LevelDB, 了解 LevelDB 的底层架构, 不过更倾向于学习它们，编写完善自己的存储系统。
 
 读过Node.js和libuv部分源码, 清楚其主要实现机制, 如Node启动, 流机制, 模块加载, 事件循环, 事件触发等等, 修改编译过一个自定义版的Node.js.
 
-#### 工作 & 效率
+#### 工作 & 效率 & 运维
 熟悉Linux大部分命令、系统/网络管理技术和Bash脚本编程. 懂得Git底层工作机制, 并能熟练使用Git进行版本控制以及应用开发.
+
+会使用 ansible 做应用的自动化管理工作, 正在学习 Docker(Container) 技术.
 
 除此之外, 完整阅读了比特币创业公司bitpay的开源项目insight-api源码, 并贡献了代码, 做过BitCoin BlockChain的数据可视化与分析。
 
